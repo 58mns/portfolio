@@ -1,10 +1,12 @@
-[
-  {
-    "category": "Front end",
-    "tools": ["JavaScript", "TypeScript"]
-  },
-  {
-    "category": "Back end",
-    "tools": ["Node.js", "TypeScript"]
-  }
-]
+{
+  "skills": [
+    {
+      "category": "Front end",
+      "tools": ["JavaScript", "TypeScript"]
+    },
+    {
+      "category": "Back end",
+      "tools": ["Node.js", "TypeScript"]
+    }
+  ]
+}
