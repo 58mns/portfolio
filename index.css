@@ -2,3 +2,52 @@
   font-family: 'Nunito', sans-serif;
   color: red;
 }
+
+.box {
+  width: 150px;
+  height: 200px;
+  position: relative;
+  background-color: #518290;
+  border-radius: 5px;
+}
+
+.image-container {
+  height: 50%;
+  border-radius: 5px;
+}
+
+.image-container img {
+  object-fit: cover;
+  border-radius: 5px 5px 5px 0;
+  /*object-position: 100px 100px;*/
+}
+
+.triangle-up {
+  position: absolute;
+  top: 71px;
+  border-left: 0px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 30px solid #518290;
+}
+
+.project-info {
+  background-color: #518290;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  border-radius: 5px;
+}
+
+.project-title {
+  background-color: blue;
+}
+
+.project-description {
+  background-color: red;
+}
+
+.popup-link {
+  background-color: yellow;
+}

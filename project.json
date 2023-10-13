@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Formula 1 Browser Extension",
+    "description": "Deletes Max Verstappen from the leaderboard from the F1 live stream graphics.",
+    "image": "https://i.pinimg.com/736x/29/a7/97/29a797972ea730a4ff4b26855e6afa3f.jpg",
+    "alt": "mv"
+  },
+  {
+    "name": "Twitch Points Collector Browser Extension",
+    "description": "Collects Channel points automatically on twitch by clicking on the collect button.",
+    "image": "https://www.kolsquare.com/wp-content/uploads/2022/09/Everything-About-the-Engagement-Rate-on-Twitch-scaled.jpg",
+    "alt": "tw"
+  }
+]
