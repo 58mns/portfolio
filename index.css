@@ -9,10 +9,150 @@
   --primary: #272F45;
   --secondary: #B4C5EE;
   --accent: #518290;
+  --max-screen-size: 1296px;
+  --large-screen-size: 1250px;
+  --medium-screen-size: 990px;
+  --small-screen-size: 672px;
+  --header-height: 60px;
+  --footer-height: 80px;
+
+}
+
+/*text styles*/
+
+
+/*general*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*navigation*/
+
+.header {
+  width: 100%;
+  max-width: var(--max-screen-size);
+  height: var(--header-height);
+
+  background-color: green;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 25px;
+}
+
+/*sections*/
+
+.main {
+  height: 100vh;
+  width: 100vw;
+
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+
+  scroll-snap-align: center;
+}
+
+.section-content {
+  width: 100%;
+  max-width: var(--max-screen-size);
+  height: 100vh;
+
+  margin: 0 auto;
+}
+
+/*sections-1*/
+
+#section-1 {
+  background-color: var(--background);
+}
+
+.content-1 {
+  height: calc(100vh - var(--header-height));
+}
+
+/*sections-2*/
+
+#section-2 {
+  background-color: var(--secondary);
+}
+
+/*sections-3*/
+
+#section-3 {
+  background-color: var(--background);
 }
 
 
-body {
-  background-color: red;
-  font-family: 'Nunito', sans-serif;
+/*sections-4*/
+
+#section-4 {
+  background-color: var(--secondary);
+}
+
+
+/*sections-5*/
+
+#section-5 {
+  background-color: var(--background);
+  position: relative;
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+.content-5 {
+  height: calc(100vh - var(--footer-height));
+}
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  height: var(--footer-height);
+
+  /*margin-top: auto;*/
+  position: absolute;
+  bottom: 0px;
+
+  background-color: var(--primary);
+}
+
+.footer div {
+  width: 100%;
+  max-width: var(--max-screen-size);
+
+  margin: 0 auto;
+}
+
+/*scrollbar*/
+#style-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: var(--primary);
 }
