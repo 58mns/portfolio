@@ -4,9 +4,21 @@
 }
 
 @font-face {
+  font-family: "Nunito Regular";
+  src: url("./fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nunito Medium";
+  src: url("./fonts/Nunito-Medium.ttf");
+}
+
+@font-face {
   font-family: "Nunito Bold";
   src: url("./fonts/Nunito-Bold.ttf");
 }
+
+
 
 
 :root {
@@ -31,6 +43,16 @@
 .header-link {
   font-family: "Nunito Bold";
   font-size: 25px;
+}
+
+.footer-text {
+  font-family: "Nunito Medium";
+  font-size: 12px;
+}
+
+.footer-text-2 {
+  font-family: "Nunito Regular";
+  font-size: 10px;
 }
 
 /*general*/
@@ -205,11 +227,47 @@ body {
   background-color: var(--primary);
 }
 
-.footer div {
+.footer-content {
   width: 100%;
   max-width: var(--max-screen-size);
 
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-links a {
+  color: var(--background);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+}
+
+.footer-bar {
+  height: 2px;
+  width: 95%;
+
+  margin: 0 auto;
+
+  background-color: var(--accent);
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 10px;
+  color: var(--secondary);
 }
 
 /*scrollbar*/
