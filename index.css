@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-Black.ttf");
+}
+
 body {
   background-color: red;
+  font-family: 'Nunito', sans-serif;
 }
