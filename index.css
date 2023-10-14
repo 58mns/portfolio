@@ -3,6 +3,15 @@
   src: url("./fonts/Nunito-Black.ttf");
 }
 
+:root {
+  --text: #130E01;
+  --background: #F7F0DE;
+  --primary: #272F45;
+  --secondary: #B4C5EE;
+  --accent: #518290;
+}
+
+
 body {
   background-color: red;
   font-family: 'Nunito', sans-serif;
