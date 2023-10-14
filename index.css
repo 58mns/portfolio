@@ -83,6 +83,15 @@ body {
   justify-content: space-between;
 }
 
+.fa-bars {
+  color: var(--accent) !important;
+}
+
+.fa-bars:hover {
+  color: var(--primary) !important;
+}
+
+
 .header-links a {
   color: var(--accent);
   text-decoration: none;
