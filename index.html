@@ -12,13 +12,22 @@
   <main class="main">
     <section class="section" id="section-1">
       <nav class="header">
-        <div>Navigation</div>
-        <div>
+        <div class="header-link header-home">
+          <a href="#section-1">Home</a>
+        </div>
+        <div class="header-link header-links normal-menu">
           <a href="#section-2">About</a>
           <a href="#section-3">Skills</a>
           <a href="#section-4">Projects</a>
           <a href="#section-5">Contact</a>
         </div>
+        <div class="header-link header-links hamburger-menu">
+          <div onclick="console.log(`open navigation bar`)">
+            <i class="fa-solid fa-bars" style="color: #518290;"></i>
+          </div>
+        </div>
+
+
       </nav>
       <div class="section-content content-1">
         Home Content
@@ -56,6 +65,7 @@
 
   </main>
 
+  <script src="https://kit.fontawesome.com/795afbf3c9.js" crossorigin="anonymous"></script>
   <script type="module" src="/index.js"></script>
 </body>
 
