@@ -55,6 +55,21 @@
   font-size: 10px;
 }
 
+.home-text-1 {
+  font-family: "Nunito Bold";
+  font-size: 50px;
+}
+
+.home-text-2 {
+  font-family: "Nunito Medium";
+  font-size: 25px;
+}
+
+.button-text-1 {
+  font-family: "Nunito Bold";
+  font-size: 30px;
+}
+
 /*general*/
 
 * {
@@ -179,7 +194,188 @@ body {
 
 .content-1 {
   height: calc(100vh - var(--header-height));
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
+.welcome-box {
+  width: 60%;
+  height: 60%;
+
+  padding: 0 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.welcome-text {
+  color: var(--text);
+}
+
+.welcome-description {
+  color: var(--accent);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+
+  gap: 10px;
+}
+
+.buttons-container a {
+  text-decoration: none;
+}
+
+.download-button {
+  margin-right: 25px;
+
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--background);
+  background-color: var(--accent);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px var(--secondary);
+}
+
+.download-button:hover {
+  background-color: var(--primary);
+}
+
+.download-button:active {
+  background-color: var(--primary);
+  box-shadow: 0 5px var(--secondary);
+  transform: translateY(4px);
+}
+
+.about-button {
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--primary);
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px var(--primary);
+}
+
+.about-button:hover {
+  background-color: var(--accent);
+}
+
+.about-button:active {
+  background-color: var(--secondary);
+  box-shadow: 0 5px var(--primary);
+  transform: translateY(4px);
+}
+
+.links-container {
+  width: 35%;
+
+  padding-top: 15px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links-container i {
+  color: var(--primary);
+}
+
+.links-container i:hover {
+  color: var(--accent);
+}
+
+
+.image-box {
+  width: 40%;
+  height: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  max-width: 100%;
+  max-height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .links-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .welcome-box {
+    width: 85%;
+    height: 90%;
+
+    padding: 0 20px;
+  }
+
+  .welcome-description {
+    padding-top: 2px;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    padding-top: 5px;
+  }
+
+  .download-button {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  .image-box {
+    display: none;
+  }
+
+  .links-container {
+    width: 100%;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .button-text-1 {
+    font-size: 20px;
+  }
+}
+
 
 /*sections-2*/
 
