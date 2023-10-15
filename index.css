@@ -18,6 +18,11 @@
   src: url("./fonts/Nunito-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Nunito ExtraBold";
+  src: url("./fonts/Nunito-ExtraBold.ttf");
+}
+
 
 
 
@@ -35,6 +40,7 @@
   /*600px*/
   --header-height: 60px;
   --footer-height: 80px;
+  --title-height: 60px;
 
 }
 
@@ -69,6 +75,19 @@
   font-family: "Nunito Bold";
   font-size: 30px;
 }
+
+.title-text-1 {
+  font-family: "Nunito ExtraBold";
+  font-size: 40px;
+}
+
+.description-text-1 {
+  font-family: "Nunito Medium";
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
 
 /*general*/
 
@@ -402,6 +421,90 @@ body {
   background-color: var(--secondary);
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-title {
+  height: var(--title-height);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 0px;
+
+  color: var(--primary)
+}
+
+.page-content {
+  height: calc(100vh - var(--title-height));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  width: 100%;
+  height: 65%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-image {
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.about-image img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+
+.about-description {
+  width: 60%;
+  height: 100%;
+  background-color: var(--background);
+
+  padding: 50px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-description {
+    width: 80%;
+    height: 100%;
+
+    padding: 25px;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+}
+
 /*sections-3*/
 
 #section-3 {
@@ -427,6 +530,11 @@ body {
 
 .content-5 {
   height: calc(100vh - var(--footer-height));
+}
+
+.contact-content {
+  background-color: yellow;
+  height: calc(100vh - var(--title-height) - var(--footer-height));
 }
 
 /*footer*/
@@ -487,18 +595,20 @@ body {
 
 /*scrollbar*/
 #style-1::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+  border-radius: 0px;
   background-color: transparent;
 }
 
 #style-1::-webkit-scrollbar {
   width: 12px;
-  background-color: transparent;
+  background-color:
+    /*var(--background);*/
+    transparent;
 }
 
 #style-1::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);*/
   background-color: var(--primary);
 }
