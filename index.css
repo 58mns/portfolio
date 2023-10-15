@@ -352,15 +352,6 @@ body {
   justify-content: space-between;
 }
 
-.links-container i {
-  color: var(--primary);
-}
-
-.links-container i:hover {
-  color: var(--accent);
-}
-
-
 .image-box {
   width: 40%;
   height: 60%;
@@ -595,14 +586,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-
-.contact-links-container i {
-  color: var(--primary);
-}
-
-.contact-links-container i:hover {
-  color: var(--accent);
 }
 
 .top-button {
