@@ -1,12 +1,32 @@
 {
   "skills": [
     {
-      "category": "Front end",
-      "tools": ["JavaScript", "TypeScript"]
+      "category": "Frontend",
+      "tools": ["HTML", "CSS", "JavaScript", "TypeScript", "C#/.NET", "React", "Blazor", "Chart.js", "Cypress", "Selenium", "Playwright"]
     },
     {
-      "category": "Back end",
-      "tools": ["Node.js", "TypeScript"]
+      "category": "Backend",
+      "tools": ["JavaScript", "Node.js", "Jest"]
+    },
+    {
+      "category": "Mobile",
+      "tools": ["Kotlin", "TypeScript", "React Native", "Expo", "Espresso"]
+    },
+    {
+      "category": "Desktop",
+      "tools": ["Java", "JavaFX", "Scenebuilder", "Design patterns"]
+    },
+    {
+      "category": "Databases",
+      "tools": ["MySQL", "SQL Server", "MongoDB"]
+    },
+    {
+      "category": "Data Science",
+      "tools": ["Seaborn", "Python"]
+    },
+    {
+      "category": "Other",
+      "tools": ["UML", "Scrum", "Git", "Figma"]
     }
   ]
 }

@@ -13,38 +13,34 @@ const observer = new IntersectionObserver((entries) => {
 
 function fillSkills() {
   if (skills.skills.length > 0) {
-    let innerContent = "";
-    skills.skills.forEach((skill) => {
-      
-      console.log(skill.category);
-      skill.tools.forEach((tool) => {
+    let innerContent1 = "";
 
+    skills.skills.forEach((skill) => {
+      let innerContent2 = "";
+
+      skill.tools.forEach((tool) => {
+        innerContent2 += `<div class="skill-tool">
+        ${tool}
+        </div>`;
       });
 
-      let content = `<div class="box">
-    <div class="image-container">
-      <img src="${skill.categ}" alt="${project.alt}" width="150"
-        height="100">
-    </div>
-    <div class="triangle-up"></div>
-    <div class="project-info">
-      <div class="project-title">
-        ${project.name}
+      let content = `<div class="skill-container">
+      <div class="skill-category skill-category-text-1">
+        <div class="skill-category-title">
+          ${skill.category}
+        </div>
+        <div class="skill-category-line"></div>
       </div>
-      <div class="project-description">
-      ${project.description}
+      <div class="skill-tools skill-tool-text-1">
+        ${innerContent2}
       </div>
-      <div class="popup-link">
-        click
-      </div>
-    </div>
-  </div> <br>`;
-      innerContent += content;
+    </div>`;
+
+      innerContent1 += content;
     });
 
     let skillsElement = document.querySelector(".skills-container");
-    skillsElement.insertAdjacentHTML("afterbegin", innerContent);
-    console.log("skills added");
+    skillsElement.insertAdjacentHTML("afterbegin", innerContent1);
   }
 }
 
@@ -52,7 +48,7 @@ function init() {
   const hiddenElements = document.querySelectorAll(".hidden");
   hiddenElements.forEach((el) => observer.observe(el));
 
-  //fillSkills();
+  fillSkills();
 }
 
 window.onload = init;
