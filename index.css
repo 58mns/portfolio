@@ -120,6 +120,27 @@ body {
   }
 }
 
+.icon-svg {
+  width: 32px;
+  height: 32px;
+  color: var(--primary);
+}
+
+.icon-svg:hover {
+  color: var(--accent);
+}
+
+.hamburger-svg {
+  width: 32px;
+  height: 32px;
+  color: var(--accent);
+}
+
+.hamburger-svg:hover {
+  color: var(--primary);
+}
+
+
 /*navigation*/
 
 .header {
