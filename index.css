@@ -766,7 +766,7 @@ body {
 
   padding: 10px 15px;
   text-align: center;
-  cursor: pointer;
+  cursor: default;
   outline: none;
   color: var(--background);
   background-color: var(--primary);
