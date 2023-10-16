@@ -1,7 +1,6 @@
 {
   "projects" : [
     {
-      "index": 0,
       "title": "Formula 1 Max deleter",
       "category": "Browser Extension",
       "about": "Deletes Max Verstappen from the F1 live stream leaderboard.",
@@ -9,15 +8,13 @@
       "alt": "Max Verstappen"
     },
     {
-      "index": 1,
-      "title": "Twitch Points collecter",
+      "title": "Twitch Points collector",
       "category": "Browser Extension",
       "about": "Automatically collects Channel Points during Twitch streams.",
       "image": "./images/twitch.PNG",
       "alt": "Twitch logo"
     },
     {
-      "index": 2,
       "title": "YouTube dislike displayer",
       "category": "Browser Extension",
       "about": "Automatically shows the dislike count for a YouTube video.",
@@ -25,12 +22,39 @@
       "alt": "YouTube logo"
     },
     {
-      "index": 3,
       "title": "Portfolio",
       "category": "Website",
       "about": "E-Portfolio containing information about me.",
       "image": "./images/Mert1.PNG",
       "alt": "A silly photo of mine"
+    },
+    {
+      "title": "VIC dashboard",
+      "category": "Application",
+      "about": "Web and mobile application for data center management.",
+      "image": "./images/vic.PNG",
+      "alt": "VIC"
+    },
+    {
+      "title": "Fluvius dashboard",
+      "category": "Application",
+      "about": "Desktop and web application to show the SDGs of Fluvius.",
+      "image": "./images/fluvius.PNG",
+      "alt": "Logo of Fluvius"
+    },
+    {
+      "title": "Online webshop clone",
+      "category": "Application",
+      "about": "A webshop for fiction books.",
+      "image": "./images/webshop.PNG",
+      "alt": "Books"
+    },
+    {
+      "title": "Rummikub desktop game",
+      "category": "Application",
+      "about": "Game of rummikub with 2D graphics.",
+      "image": "./images/rummikub.PNG",
+      "alt": "A game of rummikub"
     }
   ]
 }
