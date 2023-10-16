@@ -16,6 +16,10 @@ function showProject(value) {
   console.log("showing project with following title: " + value);
 }
 
+function showMobileNavigation() {
+  console.log("mobile navigation");
+}
+
 function fillSkills() {
   if (skills.skills.length > 0) {
     let innerContent1 = "";
@@ -73,7 +77,7 @@ function fillProjects() {
         </div>
 
         <button name="button-project" value="${project.title}" class="project-button project-text-4"
-          onclick="showProject(this.value)">
+          >
           More info
         </button>
 
@@ -94,7 +98,14 @@ function init() {
 
   fillSkills();
   fillProjects();
+
+  document.querySelectorAll(".project-button").forEach((button) => {
+    button.addEventListener("click", () => showProject(button.value), false);
+  });
+
+  document
+    .querySelector(".hamburger-menu")
+    .addEventListener("click", showMobileNavigation, false);
 }
 
-window.showProject = showProject;
 window.onload = init;
