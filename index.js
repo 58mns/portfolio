@@ -13,7 +13,13 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 function showProject(value) {
-  console.log("showing project with following title: " + value);
+  /*console.log("showing project with following title: " + value);*/
+  document.getElementById("project-popup").style.width = "100%";
+}
+
+function closeProject() {
+  /*console.log("closing project");*/
+  document.getElementById("project-popup").style.width = "0%";
 }
 
 function showMobileNavigation() {
@@ -106,6 +112,10 @@ function init() {
   document.querySelectorAll(".project-button").forEach((button) => {
     button.addEventListener("click", () => showProject(button.value), false);
   });
+
+  document
+    .querySelector(".project-popup-close")
+    .addEventListener("click", closeProject, false);
 
   document
     .querySelector(".hamburger-menu")

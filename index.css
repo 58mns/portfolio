@@ -1125,3 +1125,114 @@ body {
   /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);*/
   background-color: var(--primary);
 }
+
+/*project-popup*/
+
+.project-popup-overlay {
+  height: 100%;
+  width: 0;
+
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+
+  overflow-x: hidden;
+  transition: 0.5s;
+
+  background-color: rgb(0, 0, 0);
+  background-color: var(--accent);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-container-1 {
+  height: 10%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  text-align: center;
+
+  padding-right: 35px;
+}
+
+.project-popup-overlay .project-popup-close {
+  font-size: 50px;
+
+  transition: 0.3s;
+
+  text-decoration: none;
+  display: block;
+
+  color: rgb(0, 0, 0);
+  color: var(--background);
+}
+
+.project-popup-overlay .project-popup-close:hover,
+.project-popup-overlay .project-popup-close:focus {
+  color: #f1f1f1;
+  color: var(--primary);
+}
+
+
+.popup-container-2 {
+  height: 90%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-popup-overlay-content {
+  width: 70%;
+  height: 85%;
+  margin: 0 auto;
+
+  border-radius: 5px 5px 5px 5px;
+
+  padding: 35px;
+
+  background-color: var(--background);
+}
+
+.project-popup-overlay-content-2 {
+  width: 100%;
+  height: 100%;
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.project-information {
+  width: 95%;
+  min-height: 100vh;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .project-popup-overlay-content {
+    width: 90%;
+    height: 90%;
+
+    padding: 15px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .project-popup-overlay .project-popup-close {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .popup-container-1 {
+    padding-right: 15px;
+  }
+}
