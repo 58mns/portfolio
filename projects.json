@@ -1,0 +1,36 @@
+{
+  "projects" : [
+    {
+      "index": 0,
+      "title": "Formula 1 Max deleter",
+      "category": "Browser Extension",
+      "about": "Deletes Max Verstappen from the F1 live stream leaderboard.",
+      "image": "./images/max.jpg",
+      "alt": "Max Verstappen"
+    },
+    {
+      "index": 1,
+      "title": "Twitch Points collecter",
+      "category": "Browser Extension",
+      "about": "Automatically collects Channel Points during Twitch streams.",
+      "image": "./images/twitch.PNG",
+      "alt": "Twitch logo"
+    },
+    {
+      "index": 2,
+      "title": "YouTube dislike displayer",
+      "category": "Browser Extension",
+      "about": "Automatically shows the dislike count for a YouTube video.",
+      "image": "./images/youtube.PNG",
+      "alt": "YouTube logo"
+    },
+    {
+      "index": 3,
+      "title": "Portfolio",
+      "category": "Website",
+      "about": "E-Portfolio containing information about me.",
+      "image": "./images/Mert1.PNG",
+      "alt": "A silly photo of mine"
+    }
+  ]
+}
