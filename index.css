@@ -1211,7 +1211,7 @@ body {
 
 .project-information {
   width: 95%;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 @media screen and (max-width: 600px) {

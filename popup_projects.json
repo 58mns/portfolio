@@ -1,0 +1,84 @@
+{
+  "projects" : [
+    {
+      "title": "xFormula 1 Max deleter",
+      "category": "Browser Extension",
+      "about": "Deletes Max Verstappen from the F1 live stream leaderboard.",
+      "image": "./images/max.jpg",
+      "alt": "Max Verstappen",
+      "github": "https://github.com/58mns/formula1-extension",
+      "tools": ["JavaScript"],
+      "images": ["./images/max.jpg", "./images/max.jpg", "./images/max.jpg"]
+    },
+    {
+      "title": "xTwitch Points collector",
+      "category": "Browser Extension",
+      "about": "Automatically collects Channel Points during Twitch streams.",
+      "image": "./images/twitch.PNG",
+      "alt": "Twitch logo",
+      "github": "https://github.com/58mns/twitch-extension",
+      "tools": ["JavaScript"],
+      "images": ["./images/twitch.PNG", "./images/twitch.PNG"]
+    },
+    {
+      "title": "xYouTube dislike displayer",
+      "category": "Browser Extension",
+      "about": "Automatically shows the dislike count for a YouTube video.",
+      "image": "./images/youtube.PNG",
+      "alt": "YouTube logo",
+      "github": "https://github.com/58mns/yt-dislike-extension",
+      "tools": ["JavaScript"],
+      "images": ["./images/youtube.PNG"]
+    },
+    {
+      "title": "xPortfolio",
+      "category": "Website",
+      "about": "E-Portfolio containing information about me.",
+      "image": "./images/Mert1.PNG",
+      "alt": "A silly photo of mine",
+      "github": "https://github.com/58mns/portfolio",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "images": ["./images/Mert1.PNG"]
+    },
+    {
+      "title": "xVIC dashboard",
+      "category": "Application",
+      "about": "Web and mobile application for data center management.",
+      "image": "./images/vic.PNG",
+      "alt": "VIC",
+      "github": "*no link because of privacy*",
+      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
+      "images": ["./images/vic.PNG"]
+    },
+    {
+      "title": "xFluvius dashboard",
+      "category": "Application",
+      "about": "Desktop and web application to show the SDGs of Fluvius.",
+      "image": "./images/fluvius.PNG",
+      "alt": "Logo of Fluvius",
+      "github": "*no link because of privacy*",
+      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
+      "images": ["./images/fluvius.PNG"]
+    },
+    {
+      "title": "xOnline webshop clone",
+      "category": "Application",
+      "about": "A webshop for fiction books.",
+      "image": "./images/webshop.PNG",
+      "alt": "Books",
+      "github": "*no link because of privacy*",
+      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
+      "images": ["./images/webshop.PNG"]
+    },
+    {
+      "title": "xRummikub desktop game",
+      "category": "Application",
+      "about": "Game of rummikub with 2D graphics.",
+      "image": "./images/rummikub.PNG",
+      "alt": "A game of rummikub",
+      "github": "*no link because of privacy*",
+      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
+      "images": ["./images/rummikub.PNG"]
+    }
+  ]
+}
