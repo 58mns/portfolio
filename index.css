@@ -1214,8 +1214,6 @@ body {
   min-height: 100vh;
 }
 
-
-
 @media screen and (max-width: 600px) {
   .project-popup-overlay-content {
     width: 90%;
@@ -1235,4 +1233,202 @@ body {
   .popup-container-1 {
     padding-right: 15px;
   }
+}
+
+/*project popup information*/
+
+.popup-project-text-1 {
+  font-family: "Nunito Bold";
+  font-size: 35px;
+}
+
+.popup-project-text-2 {
+  font-family: "Nunito Medium";
+  font-size: 20px;
+}
+
+.popup-project-text-3 {
+  font-family: "Nunito Bold";
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+.popup-project-title {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.popup-project-category {
+  margin-bottom: 10px;
+  width: auto;
+
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 10px 15px;
+  text-align: center;
+  cursor: default;
+  outline: none;
+  color: var(--background);
+  background-color: var(--primary);
+  border: none;
+  border-radius: 15px;
+}
+
+.popup-project-about {
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+
+@media screen and (max-width: 600px) {
+  .popup-project-text-1 {
+    font-family: "Nunito Bold";
+    font-size: 30px;
+  }
+
+  .popup-project-text-2 {
+    font-family: "Nunito Medium";
+    font-size: 15px;
+  }
+
+  .popup-project-text-3 {
+    font-family: "Nunito Bold";
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .popup-project-text-3 {
+    font-family: "Nunito Bold";
+    font-size: 16px;
+  }
+}
+
+/*------------------------------------*/
+
+
+.popup-skill-category-text-1 {
+  font-family: "Nunito Bold";
+  font-size: 28px;
+}
+
+.popup-skill-tool-text-1 {
+  font-family: "Nunito Medium";
+  font-size: 20px;
+}
+
+
+
+
+.popup-skill-container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin-top: 10px;
+}
+
+.popup-skill-category {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  color: var(--accent);
+}
+
+.popup-skill-category-line {
+  width: 250px;
+  height: 10px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: var(--accent);
+}
+
+.popup-skill-tools {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: 25px;
+  row-gap: 10px;
+}
+
+.popup-skill-tool {
+  width: auto;
+
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 10px 15px;
+  text-align: center;
+  cursor: default;
+  outline: none;
+  color: var(--primary);
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 15px;
+}
+
+.popup-skill-tool:hover {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+@media screen and (max-width: 400px) {
+  .popup-skill-category-text-1 {
+    font-family: "Nunito Bold";
+    font-size: 28px;
+  }
+
+  .popup-skill-tool-text-1 {
+    font-family: "Nunito Medium";
+    font-size: 15px;
+  }
+
+  .popup-skill-category-line {
+    width: 200px;
+  }
+
+  .popup-skill-tools {
+    column-gap: 15px;
+    row-gap: 10px;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+  .popup-skill-category-text-1 {
+    font-family: "Nunito Bold";
+    font-size: 20px;
+  }
+
+  .popup-skill-tool-text-1 {
+    font-family: "Nunito Medium";
+    font-size: 15px;
+  }
+
+  .popup-skill-category-line {
+    width: 150px;
+  }
+}
+
+.popup-images {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
 }
