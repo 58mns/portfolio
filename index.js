@@ -17,7 +17,11 @@ function showProject(value) {
 }
 
 function showMobileNavigation() {
-  console.log("mobile navigation");
+  document.getElementById("mobile-navigation").style.height = "100%";
+}
+
+function closeMobileNavigation() {
+  document.getElementById("mobile-navigation").style.height = "0%";
 }
 
 function fillSkills() {
@@ -106,6 +110,16 @@ function init() {
   document
     .querySelector(".hamburger-menu")
     .addEventListener("click", showMobileNavigation, false);
+
+  document
+    .querySelector(".hamburger-menu-close")
+    .addEventListener("click", closeMobileNavigation, false);
+
+  document
+    .querySelectorAll(".mobile-navigation-overlay-content a")
+    .forEach((link) => {
+      link.addEventListener("click", closeMobileNavigation, false);
+    });
 }
 
 window.onload = init;
