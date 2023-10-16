@@ -12,6 +12,10 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
+function showProject(value) {
+  console.log("showing project with following title: " + value);
+}
+
 function fillSkills() {
   if (skills.skills.length > 0) {
     let innerContent1 = "";
@@ -69,7 +73,7 @@ function fillProjects() {
         </div>
 
         <button name="button-project" value="${project.title}" class="project-button project-text-4"
-          onclick="console.log(this.value)">
+          onclick="showProject(this.value)">
           More info
         </button>
 
@@ -92,4 +96,5 @@ function init() {
   fillProjects();
 }
 
+window.showProject = showProject;
 window.onload = init;
