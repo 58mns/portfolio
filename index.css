@@ -97,6 +97,27 @@
   font-size: 25px;
 }
 
+.project-text-1 {
+  font-family: "Nunito Bold";
+  font-size: 35px;
+}
+
+.project-text-2 {
+  font-family: "Nunito Medium";
+  font-size: 20px;
+}
+
+.project-text-3 {
+  font-family: "Nunito Regular";
+  font-size: 20px;
+}
+
+.project-text-4 {
+  font-family: "Nunito Bold";
+  font-size: 30px;
+}
+
+
 
 /*general*/
 
@@ -724,17 +745,72 @@ body {
 
   background-color: var(--accent);
 
-  display: flex;
-  flex-direction: column;
-  /*align-items: flex-start;
-  justify-content: flex-start;*/
-
-  /*gap: 25px;
-
-  padding: 15px;*/
+  padding: 15px;
 
   border-radius: 0 5px 5px 0;
+
+  position: relative;
 }
+
+.project-title {
+  color: var(--background);
+  margin-bottom: 10px;
+}
+
+.project-category {
+  margin-bottom: 10px;
+  width: auto;
+
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--background);
+  background-color: var(--primary);
+  border: none;
+  border-radius: 15px;
+}
+
+.project-about {
+  margin-bottom: 10px;
+  color: var(--secondary);
+}
+
+.project-button {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+
+  width: auto;
+
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--primary);
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px var(--primary);
+}
+
+.project-button:hover {
+  background-color: var(--background);
+}
+
+.project-button:active {
+  background-color: var(--secondary);
+  box-shadow: 0 5px var(--primary);
+  transform: translateY(4px);
+}
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -774,8 +850,33 @@ body {
     border-radius: 0 0 5px 5px;
   }
 
+  .project-text-1 {
+    font-family: "Nunito Bold";
+    font-size: 20px;
+  }
+
+  .project-text-2 {
+    font-family: "Nunito Medium";
+    font-size: 12px;
+  }
+
+  .project-text-3 {
+    font-family: "Nunito ExtraBold";
+    font-size: 11px;
+  }
+
+  .project-text-4 {
+    font-family: "Nunito Bold";
+    font-size: 15px;
+  }
 }
 
+@media screen and (max-width: 350px) {
+  .project-about {
+    display: none;
+  }
+
+}
 
 /*sections-5*/
 
