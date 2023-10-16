@@ -2,7 +2,7 @@
   "skills": [
     {
       "category": "Frontend",
-      "tools": ["HTML", "CSS", "JavaScript", "TypeScript", "C#/.NET", "React", "Blazor", "Chart.js", "Cypress", "Selenium", "Playwright"]
+      "tools": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "TypeScript", "C#/.NET", "React", "Blazor", "Chart.js", "Cypress", "Selenium", "Playwright"]
     },
     {
       "category": "Backend",
@@ -14,7 +14,7 @@
     },
     {
       "category": "Desktop",
-      "tools": ["Java", "JavaFX", "Scenebuilder", "Design patterns"]
+      "tools": ["Java", "JUnit", "JavaFX", "Scenebuilder", "Design patterns"]
     },
     {
       "category": "Databases",
