@@ -1,7 +1,7 @@
 {
   "projects" : [
     {
-      "title": "xFormula 1 Max deleter",
+      "title": "Formula 1 Max deleter",
       "category": "Browser Extension",
       "about": "Deletes Max Verstappen from the F1 live stream leaderboard.",
       "tools": ["JavaScript"],
