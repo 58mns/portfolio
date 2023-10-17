@@ -1488,3 +1488,88 @@ body {
     font-size: 12px;
   }
 }
+
+/***************landscape mode*********************/
+
+@media screen and (max-height: 450px) {
+
+  /*home*/
+  .main {
+    scroll-snap-type: none;
+  }
+
+  .section {
+    height: auto;
+  }
+
+  .section-content {
+    height: auto;
+  }
+
+  .content-1 {
+    max-height: none;
+  }
+
+  .welcome-box {
+    margin-bottom: 50px;
+  }
+
+  .image-box {
+    display: none;
+  }
+
+  /*projects*/
+
+  .projects-container-wrapper {
+    height: 90%;
+  }
+
+  .projects-container {
+    height: 100%;
+
+    gap: 10px;
+    scroll-snap-type: none;
+  }
+
+  .project-container {
+    height: auto;
+  }
+
+  .project-image-container {
+    display: none;
+  }
+
+  .project-description {
+    width: 100%;
+    height: auto;
+    /*100%*/
+  }
+
+  .project-button {
+    position: static;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  /*contact*/
+  .contact-container {
+    width: 75%;
+    max-height: 100%;
+  }
+
+  .contact-image {
+    display: none;
+  }
+
+  .contact-description {
+    display: none;
+  }
+
+  .contact-links-container {
+    width: 100%;
+  }
+
+  .button-text-1 {
+    font-size: 20px;
+  }
+}
