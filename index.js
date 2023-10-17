@@ -1,8 +1,16 @@
-import skills from "./skills.json" assert { type: "json" };
-import projects from "./projects.json" assert { type: "json" };
-import popup_projects from "./popup_projects.json" assert { type: "json" };
-
 ("use strict");
+let skills;
+let projects;
+
+async function fetchJsons() {
+  await fetch("./skills.json")
+    .then((response) => response.json())
+    .then((json) => (skills = json));
+
+  await fetch("./projects.json")
+    .then((response) => response.json())
+    .then((json) => (projects = json));
+}
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -15,8 +23,8 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 function showProject(value) {
-  if (popup_projects.projects.length > 0) {
-    let project = popup_projects.projects[value];
+  if (projects.projects.length > 0) {
+    let project = projects.projects[value];
 
     let overlay = document.querySelector(".project-popup-overlay");
     overlay.querySelector(
@@ -36,7 +44,7 @@ function showProject(value) {
       project.links.forEach((link) => {
         let link_content = `<a class="button" href="${link.url}" target="_blank">
                     <div class="project-link-button project-link-button-text-1">${link.title}</div>
-                  </a>`
+                  </a>`;
 
         links_list += link_content;
       });
@@ -140,7 +148,7 @@ function fillProjects() {
         </div>
 
         <div class="project-about project-text-3">
-        ${project.about}
+        ${project.about_teaser}
         </div>
 
         <button name="button-project" value="${index}" class="project-button project-text-4"
@@ -159,7 +167,9 @@ function fillProjects() {
   }
 }
 
-function init() {
+async function init() {
+  await fetchJsons();
+
   const hiddenElements = document.querySelectorAll(".hidden");
   hiddenElements.forEach((el) => observer.observe(el));
 
