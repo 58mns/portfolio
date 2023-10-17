@@ -6,7 +6,7 @@
     },
     {
       "category": "Backend",
-      "tools": ["JavaScript", "Java", "C#/.NET", "Node.js", "Spring Boot", "Jest", "REST", "Graphql", "SOAP"]
+      "tools": ["JavaScript", "Java", "C#/.NET", "Node.js", "Spring Boot", "Jest", "REST", "GraphQL", "SOAP"]
     },
     {
       "category": "Mobile",
