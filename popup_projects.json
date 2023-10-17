@@ -37,10 +37,11 @@
       "title": "Portfolio",
       "category": "Website",
       "about": "E-Portfolio containing information about me. The skills section should give people an idea what hard or technical skills I have. The projects section has pictures of the projects I made. The website contains my CV/resume and contact data.",
-      "tools": ["HTML", "CSS", "JavaScript"],
+      "tools": ["HTML", "CSS", "JavaScript", "Figma"],
       "images": ["./images/portfolio_1.PNG", "./images/portfolio_2.PNG", "./images/portfolio_3.PNG", "./images/portfolio_4.PNG", "./images/portfolio_5.PNG"],
       "links": [
-        {"title": "GitHub", "url": "https://github.com/58mns/portfolio"}
+        {"title": "GitHub", "url": "https://github.com/58mns/portfolio"},
+        {"title": "Figma", "url": "https://www.figma.com/file/8ACDcKoL8zSTSofxyx4MMF/E-Portfolio-Design?type=design&node-id=0%3A1&mode=design&t=tKyTYS5ONwy1SWI7-1"}
       ],
       "links_or_not": {"has_links": true, "reason": ""}
     },
