@@ -1434,3 +1434,57 @@ body {
 
   gap: 10px;
 }
+
+.popup-project-links {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 15px;
+}
+
+.project-link-button {
+  width: auto;
+
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--primary);
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px var(--primary);
+}
+
+.project-link-button:hover {
+  background-color: var(--accent);
+}
+
+.project-link-button:active {
+  background-color: var(--secondary);
+  box-shadow: 0 5px var(--primary);
+  transform: translateY(4px);
+}
+
+.project-link-button-text-1 {
+  font-family: "Nunito Bold";
+  font-size: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .project-link-button {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .project-link-button-text-1 {
+    font-size: 12px;
+  }
+}
