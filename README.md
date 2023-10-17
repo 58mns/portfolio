@@ -28,4 +28,4 @@ The website is done with HTML, CSS and JavaScript. Before coding I did the desig
 
 # Further improvements
 
-Everything looks good vertically. When landscape mode is used on a phone the designs can shift a bit. A piece of the next section can be visible in the current section. This could be a new ticket for the future.
+Not really (maybe a contact form in the contact section).
