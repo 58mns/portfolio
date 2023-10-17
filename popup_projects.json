@@ -25,7 +25,7 @@
     {
       "title": "YouTube dislike displayer",
       "category": "Browser Extension",
-      "about": "An extension to automatically show the dislike count for YoutuTube videos. When a video is opened, the count will be visible. This extension uses the Return YouTube Dislike API (https://returnyoutubedislike.com/). The dislike number or count is also formatted (for example it shows 1.3M instead of 1,300,300);",
+      "about": "An extension to automatically show the dislike count for YouTube videos. When a video is opened, the count will be visible. This extension uses the Return YouTube Dislike API (https://returnyoutubedislike.com/). The dislike number or count is also formatted (for example it shows 1.3M instead of 1,300,300).",
       "tools": ["JavaScript"],
       "images": ["./images/yt_1.PNG", "./images/yt_2.PNG"],
       "links": [
