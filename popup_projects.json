@@ -3,80 +3,80 @@
     {
       "title": "Formula 1 Max deleter",
       "category": "Browser Extension",
-      "about": "Deletes Max Verstappen from the F1 live stream leaderboard.",
+      "about": "An extension to delete or cover Max Verstappen's name from the leaderboard graphic for AUVIO/RTBF Formula 1 live streams. When a live stream or previous race/sprint/qualifying/... video is opened, the extension adds an image on top of the live stream/video. This image shifts the positions by one. The first position is covered because of this.",
       "tools": ["JavaScript"],
-      "images": ["./images/max.jpg", "./images/max.jpg", "./images/max.jpg"],
+      "images": ["./images/F1_1.PNG", "./images/F1_2.PNG"],
       "links": [
         {"title": "GitHub", "url": "https://github.com/58mns/formula1-extension"}
       ],
       "links_or_not": {"has_links": true, "reason": ""}
     },
     {
-      "title": "xTwitch Points collector",
+      "title": "Twitch Points collector",
       "category": "Browser Extension",
-      "about": "Automatically collects Channel Points during Twitch streams.",
+      "about": "An extension to automatically collect the Twitch Channel Points during a Twitch live stream. You do not have to click on the green button to collect Points. You can enjoy the stream in full screen or even close chat (where the collect button is located). The extension will collect all collectable Points during a stream (you can collect Points every x minutes). It also works if you open another live stream.",
       "tools": ["JavaScript"],
-      "images": ["./images/twitch.PNG", "./images/twitch.PNG"],
+      "images": ["./images/twitch_1.PNG", "./images/twitch_2.PNG"],
       "links": [
         {"title": "GitHub", "url": "https://github.com/58mns/twitch-extension"}
       ],
       "links_or_not": {"has_links": true, "reason": ""}
     },
     {
-      "title": "xYouTube dislike displayer",
+      "title": "YouTube dislike displayer",
       "category": "Browser Extension",
-      "about": "Automatically shows the dislike count for a YouTube video.",
+      "about": "An extension to automatically show the dislike count for YoutuTube videos. When a video is opened, the count will be visible. This extension uses the Return YouTube Dislike API (https://returnyoutubedislike.com/). The dislike number or count is also formatted (for example it shows 1.3M instead of 1,300,300);",
       "tools": ["JavaScript"],
-      "images": ["./images/youtube.PNG"],
+      "images": ["./images/yt_1.PNG", "./images/yt_2.PNG"],
       "links": [
         {"title": "GitHub", "url": "https://github.com/58mns/yt-dislike-extension"}
       ],
       "links_or_not": {"has_links": true, "reason": ""}
     },
     {
-      "title": "xPortfolio",
+      "title": "Portfolio",
       "category": "Website",
-      "about": "E-Portfolio containing information about me.",
+      "about": "E-Portfolio containing information about me. The skills section should give people an idea what hard or technical skills I have. The projects section has pictures of the projects I made. The website contains my CV/resume and contact data.",
       "tools": ["HTML", "CSS", "JavaScript"],
-      "images": ["./images/Mert1.PNG"],
+      "images": ["./images/portfolio_1.PNG", "./images/portfolio_2.PNG", "./images/portfolio_3.PNG", "./images/portfolio_4.PNG", "./images/portfolio_5.PNG"],
       "links": [
         {"title": "GitHub", "url": "https://github.com/58mns/portfolio"}
       ],
       "links_or_not": {"has_links": true, "reason": ""}
     },
     {
-      "title": "xVIC dashboard",
+      "title": "VIC dashboard",
       "category": "Application",
-      "about": "Web and mobile application for data center management.",
-      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
-      "images": ["./images/vic.PNG"],
+      "about": "A system for the VIC (Virtual IT Company) of HOGENT. The VIC needed a system to manage their users and Virtual Machines. This project consists of an online dashboard and android app.",
+      "tools": ["C#/.NET", "Kotlin", "Blazor", "Espresso", "Figma"],
+      "images": ["./images/vic_1.PNG", "./images/vic_2.PNG"],
       "links": [],
       "links_or_not": {"has_links": false, "reason": "no links because of privacy"}
     },
     {
-      "title": "xFluvius dashboard",
+      "title": "Fluvius dashboard",
       "category": "Application",
-      "about": "Desktop and web application to show the SDGs of Fluvius.",
-      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
-      "images": ["./images/fluvius.PNG"],
+      "about": "A system for Fluvius to showcase their SDG's (Sustainable Development Goals). With this system it is possible to make SDGs via the desktop application and view them on the web application.",
+      "tools": ["Java", "JavaFX", "JUnit", "JavaScript", "React", "Tailwind CSS", "Chart.js", "UML", "Design patterns"],
+      "images": ["./images/fluvius_1.PNG", "./images/fluvius_2.PNG"],
       "links": [],
       "links_or_not": {"has_links": false, "reason": "no links because of privacy"}
     },
     {
-      "title": "xOnline webshop clone",
+      "title": "Online webshop clone",
       "category": "Application",
-      "about": "A webshop for fiction books.",
-      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
-      "images": ["./images/webshop.PNG"],
+      "about": "A webshop for fiction books where users can search and buy books. Admins can manage books and users. This project consists of a backend and frontend. The intention was to make the frontend look like the Standaard Boekhandel webshop (Belgian company that sells books).",
+      "tools": ["JavaScript", "SQL", "React", "Node.js", "REST", "Cypress", "Jest"],
+      "images": ["./images/webshop_1.PNG", "./images/webshop_2.PNG", "./images/webshop_3.PNG", "./images/webshop_4.PNG"],
       "links": [],
       "links_or_not": {"has_links": false, "reason": "no links because of privacy"}
     },
     {
-      "title": "xRummikub desktop game",
+      "title": "Rummikub desktop game",
       "category": "Application",
-      "about": "Game of rummikub with 2D graphics.",
-      "tools": ["JavaScript", "TypeScript", "MutationObserver", "DOM"],
-      "images": ["./images/rummikub.PNG"],
+      "about": "Game of rummikub with 2D graphics. A players could use the options on the screen to place a piece in the game. The game is offline.",
+      "tools": ["Java", "JavaFX", "JUnit", "UML"],
+      "images": ["./images/rummikub_1.PNG"],
       "links": [],
       "links_or_not": {"has_links": false, "reason": "no links because of privacy"}
     }

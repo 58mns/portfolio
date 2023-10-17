@@ -6,7 +6,7 @@
     },
     {
       "category": "Backend",
-      "tools": ["JavaScript", "Node.js", "Jest"]
+      "tools": ["JavaScript", "Java", "C#/.NET", "Node.js", "Jest", "REST", "Graphql", "SOAP"]
     },
     {
       "category": "Mobile",
@@ -18,7 +18,7 @@
     },
     {
       "category": "Databases",
-      "tools": ["MySQL", "SQL Server", "MongoDB"]
+      "tools": ["SQL", "MySQL", "SQL Server", "MongoDB"]
     },
     {
       "category": "Data Science",

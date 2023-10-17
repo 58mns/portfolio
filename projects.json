@@ -31,7 +31,7 @@
     {
       "title": "VIC dashboard",
       "category": "Application",
-      "about": "Web and mobile application for data center management.",
+      "about": "Web and mobile application for Virtual Machine management.",
       "image": "./images/vic.PNG",
       "alt": "VIC"
     },
