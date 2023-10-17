@@ -2,11 +2,11 @@
   "skills": [
     {
       "category": "Frontend",
-      "tools": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "TypeScript", "C#/.NET", "React", "Blazor", "Chart.js", "Cypress", "Selenium", "Playwright"]
+      "tools": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "TypeScript", "C#/.NET", "React", "Blazor", "Spring Boot", "Chart.js", "Cypress", "Selenium", "Playwright"]
     },
     {
       "category": "Backend",
-      "tools": ["JavaScript", "Java", "C#/.NET", "Node.js", "Jest", "REST", "Graphql", "SOAP"]
+      "tools": ["JavaScript", "Java", "C#/.NET", "Node.js", "Spring Boot", "Jest", "REST", "Graphql", "SOAP"]
     },
     {
       "category": "Mobile",
@@ -18,7 +18,7 @@
     },
     {
       "category": "Databases",
-      "tools": ["SQL", "MySQL", "SQL Server", "MongoDB"]
+      "tools": ["SQL", "MySQL", "SQL Server", "PostgreSQL", "MongoDB", "Neo4j"]
     },
     {
       "category": "Data Science",
